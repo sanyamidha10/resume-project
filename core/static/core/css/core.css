@@ -24,5 +24,20 @@ body {
 /* service subtitle color */
 
 .ss-color {
-    color: silver;
+    color: grey;
+}
+
+a.nav-link {
+    color: whitesmoke;
+}
+
+a.nav-link:hover {
+    color: black;
+    background-color: #e9cd79;
+}
+
+a.nav-link.active {
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
 }
